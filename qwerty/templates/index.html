@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>HTML5</title>
+  <style>
+  </style>
+ </head>
+ <body>
+  <p>Первая страница</p>
+  <a href="/">main</a>
+  <a href="/second">second</a>
+  <a href="/second2">second2</a>
+  <a href="/third_page">third-page</a>
+  <a href="/fourth_page">fourth-page</a>
+
+  <ol>
+   
+    {% for item in asd %}
+    <li>{{item.name}}, {{item.age}}
+    </li>
+    {% endfor %}
+</ol>
+
+ </body>
+</html>
