@@ -9,7 +9,7 @@ def first_page(self):
         }
     return render(self, 'index.html', data)
 
-
+#hello world
 def second_page(self):
     persons = models.Bank.objects.all()
     data = {
