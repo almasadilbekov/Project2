@@ -37,4 +37,8 @@ def third_page(self):
 
 
 def fourth_page(self):
-    return render(self, 'index4.html')
+    persons = models.People.objects.all()
+    data = {
+        "lkj":persons
+    }
+    return render(self, 'index4.html',data)

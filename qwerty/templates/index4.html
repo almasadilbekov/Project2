@@ -13,5 +13,17 @@
   <a href="/second2">second2</a>
   <a href="/third_page">third-page</a>
   <a href="/fourth_page">fourth-page</a>
+
+  <ol>
+   
+    {% for item in lkj %}
+    <li>{{item.PeopleName}}, {{item.PeopleChain}}
+    </li>
+    {% endfor %}
+</ol>
+
+
+
+
  </body>
 </html>

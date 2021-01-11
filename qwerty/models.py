@@ -15,3 +15,7 @@ class Lombard(models.Model):
 class Cars(models.Model):
     CarsName=models.CharField(max_length=20)
     CarsChain=models.CharField(max_length=20)
+
+class People(models.Model):
+    PeopleName=models.CharField(max_length=20)
+    PeopleChain=models.CharField(max_length=20)
